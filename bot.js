@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd' ,member => {
-  if(member.guild.id !== '462347265747451914') return;
+  if(member.guild.id !== '485579255091298306') return;
   setTimeout(function(){
   member.guild.channels.find(r => r.id === '451806679747788800').send('Welcome To **Blore** Server .');
 },3000);
